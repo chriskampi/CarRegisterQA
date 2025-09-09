@@ -51,24 +51,24 @@ class SeleniumActions:
         sleep(0.3)
         element.send_keys(text)
 
-    def find_and_assert_count(self, xpath: str, expected_list: list) -> None:
+    def find_and_assert_count(self, xpath_list) -> None:
         """
         Find elements using xpath and assert that the count matches the expected list length.
         Uses find method for each element in the expected list.
         
         Args:
-            xpath: The XPath to find elements
+            xpath_list: The XPath to find elements
             expected_list: List of expected values to compare count against
             
         Raises:
             AssertionError: If the number of found elements doesn't match the list length
         """
         found_count = 0
-        for element in expected_list:
-            self.find(xpath, exists=True)
+        for path in xpath_list:
+            self.find(path, exists=True)
             found_count += 1
         
-        expected_count = len(expected_list)
+        expected_count = len(xpath_list)
         
         assert found_count == expected_count, \
-            f"Expected {expected_count} elements but found {found_count} elements for xpath: {xpath}"
+            f"Expected {expected_count} elements but found {found_count} elements"

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd621150-052a-4eea-a39d-13d8b50e9083" name="Changes" comment="Renaming Folder for tests" />
+    <list default="true" id="bd621150-052a-4eea-a39d-13d8b50e9083" name="Changes" comment="Renaming Folder for tests">
+      <change beforePath="$PROJECT_DIR$/locators/elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/elements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/page_paths/car_registration_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/page_paths/car_registration_year.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/selenium_action_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/selenium_action_utils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +61,7 @@
       <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for Functional_Tests.test_browser.TestBrowserFunctionality">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CarRegisterQA" />
       <option name="ENV_FILES" value="" />

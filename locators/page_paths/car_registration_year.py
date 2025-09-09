@@ -76,5 +76,24 @@ class CarRegistrationYearLocators(BasePage):
         path = f"{self.elements.div_alert_success()}[contains(.,'There was an error!')]"
         return self.actions.find(path, exists)
 
+    def validate_option_year_list(self, years):
+        """
+        Validates a list of years ensuring they meet specific criteria. Typically used to check if
+        a list of years conforms to predefined rules or requirements in the application.
+
+        Args:
+         years A list of integers representing years that need validation.
+
+        Return: Boolean indicator whether the given list of years is valid or not, based
+                 on the specified validation rules.
+        """
+
+        year_list = []
+        for year in years:
+            year_list.append(self.elements.option_via_text(year))
+        self.actions.find_and_assert_count(year_list)
+
+
+
 
 

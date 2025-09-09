@@ -95,7 +95,7 @@ class Elements:
     # OPTION------------------------------------------------------------------------------------------------------------
 
     @staticmethod
-    def option_via_text(path_text):
+    def option_via_text(path_text=None):
         """
         Generate XPath locator for option element by text content.
         
@@ -105,7 +105,10 @@ class Elements:
         Returns:
             str: XPath expression to locate the option element
         """
-        path = f"//option[contains(.,'{path_text}')]"
+        path = f"//option"
+        if path_text:
+            path += f"[contains(.,'{path_text}')]"
+
         return path
 
     # DIV---------------------------------------------------------------------------------------------------------------
