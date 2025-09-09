@@ -1,7 +1,6 @@
-from locators.elements import Elements
-from utils.selenium_action_utils import SeleniumActions
+from locators.base_page import BasePage
 
-class CarRegistrationYearLocators:
+class CarRegistrationYearLocators(BasePage):
     """
     Page Object Model class for car registration year selection functionality.
     
@@ -17,9 +16,7 @@ class CarRegistrationYearLocators:
         Args:
             driver: Selenium WebDriver instance for browser automation
         """
-        self.driver = driver
-        self.elements = Elements()
-        self.actions = SeleniumActions(self.driver)
+        super().__init__(driver)
         self.url = f"file:///C:/Users/{self.elements.username}/Downloads/QA%20Programming%20Exercise.html"
 
     def input_type_car_registration(self, car_registration):
