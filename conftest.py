@@ -4,6 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import os
+import shutil
 
 
 @pytest.fixture(scope="session")
@@ -15,15 +16,41 @@ def browser():
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_argument("--disable-web-security")
+    chrome_options.add_argument("--allow-running-insecure-content")
+    chrome_options.add_argument("--disable-extensions")
     
-    # Setup Chrome driver
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=chrome_options)
+    # Clear any existing webdriver cache to avoid corrupted downloads
+    wdm_cache = os.path.expanduser("~/.wdm")
+    if os.path.exists(wdm_cache):
+        try:
+            shutil.rmtree(wdm_cache)
+        except Exception:
+            pass  # Ignore cleanup errors
+    
+    # Setup Chrome driver with better error handling
+    try:
+        # Force download of fresh ChromeDriver
+        driver_path = ChromeDriverManager(cache_valid_range=1).install()
+        service = Service(driver_path)
+        driver = webdriver.Chrome(service=service, options=chrome_options)
+    except Exception as e:
+        # Fallback: try without webdriver-manager
+        print(f"WebDriver Manager failed: {e}")
+        print("Trying to use system ChromeDriver...")
+        try:
+            driver = webdriver.Chrome(options=chrome_options)
+        except Exception as e2:
+            print(f"System ChromeDriver also failed: {e2}")
+            raise Exception(f"Could not start Chrome browser. WebDriver Manager error: {e}. System ChromeDriver error: {e2}")
     
     yield driver
     
     # Cleanup
-    driver.quit()
+    try:
+        driver.quit()
+    except Exception:
+        pass  # Ignore cleanup errors
 
 
 @pytest.fixture
