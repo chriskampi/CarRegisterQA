@@ -9,7 +9,7 @@ CarRegisterQA/
 ├── conftest.py              # Pytest configuration and browser setup
 ├── pytest.ini              # Pytest settings and markers
 ├── requirements.txt         # Python dependencies
-├── tests/
+├── Functional_Tests/
 │   └── test_browser.py     # Browser test cases
 └── README.md               # This file
 ```
@@ -72,7 +72,7 @@ pytest --html=reports/report.html --self-contained-html
 
 ### Run specific test
 ```bash
-pytest tests/test_browser.py::TestBrowserFunctionality::test_page_loads_successfully
+pytest Functional_Tests/test_browser.py::TestBrowserFunctionality::test_page_loads_successfully
 ```
 
 ## Test Coverage
