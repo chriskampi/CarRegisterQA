@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd621150-052a-4eea-a39d-13d8b50e9083" name="Changes" comment="Renaming Folder for tests" />
+    <list default="true" id="bd621150-052a-4eea-a39d-13d8b50e9083" name="Changes" comment="Renaming Folder for tests">
+      <change afterPath="$PROJECT_DIR$/values_data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/values_data/years.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional_Tests/Validate_Year_List.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Validate_Year_List.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +52,7 @@
     "Python tests.Python tests for tests.test_browser.TestBrowserFunctionality.executor": "Debug",
     "Python tests.Python tests in test_browser.py.executor": "Run",
     "Python tests.pytest for Functional_Tests.Validate_Year_List.TestBrowserFunctionality.executor": "Debug",
+    "Python tests.pytest in Validate_Year_List.py.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -55,12 +61,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\Functional_Tests" />
       <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA" />
+      <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\Functional_Tests" />
       <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in Validate_Year_List.py">
+  <component name="RunManager" selected="Python tests.pytest for Functional_Tests.Validate_Year_List.TestBrowserFunctionality">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CarRegisterQA" />
       <option name="ENV_FILES" value="" />
@@ -149,8 +155,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in Validate_Year_List.py" />
         <item itemvalue="Python tests.pytest for Functional_Tests.Validate_Year_List.TestBrowserFunctionality" />
+        <item itemvalue="Python tests.pytest in Validate_Year_List.py" />
         <item itemvalue="Python tests.Python tests for Functional_Tests.test_browser.TestBrowserFunctionality" />
         <item itemvalue="Python tests.Python tests in test_browser.py" />
       </list>
