@@ -7,4 +7,4 @@ class TestBrowserFunctionality:
 
     def test_page_loads_successfully(self, setup_browser_test):
         """Test that the HTML page loads without errors"""
-        validate_year_list(setup_browser_test, ['2017'])
+        validate_year_list(setup_browser_test, ['2018'])

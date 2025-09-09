@@ -87,11 +87,8 @@ class CarRegistrationYearLocators(BasePage):
         Return: Boolean indicator whether the given list of years is valid or not, based
                  on the specified validation rules.
         """
-
-        year_list = []
-        for year in years:
-            year_list.append(self.elements.option_via_text(year))
-        self.actions.find_and_assert_count(year_list)
+        xpath_pattern = self.elements.option_via_text()
+        self.actions.find_and_assert_count(xpath_pattern, years)
 
 
 
