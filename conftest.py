@@ -56,7 +56,8 @@ def browser():
 @pytest.fixture
 def html_file_path():
     """Path to the HTML file for testing"""
-    return r"file:///C:/Users/User/Downloads/QA%20Programming%20Exercise.html"
+    username = os.getenv('USERNAME') or os.getenv('USER')
+    return rf"file:///C:/Users/{username}/Downloads/QA%20Programming%20Exercise.html"
 
 
 @pytest.fixture
