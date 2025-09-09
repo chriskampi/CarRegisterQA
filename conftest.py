@@ -11,7 +11,7 @@ import shutil
 def browser():
     """Setup Chrome browser for testing"""
     chrome_options = Options()
-    chrome_options.add_argument("--headless")  # Run in headless mode
+    # chrome_options.add_argument("--headless")  # Commented out to run in visible mode
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
