@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd621150-052a-4eea-a39d-13d8b50e9083" name="Changes" comment="Renaming Folder for tests">
-      <change afterPath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Greek_Letters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Romanian_Pattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Space_Bar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/values_data/car_registration_applications.py" beforeDir="false" afterPath="$PROJECT_DIR$/values_data/car_registration_applications.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +52,19 @@
     "Python tests.pytest for Functional_Tests.Submit_Invalid_Car_Registration_No_Year_Selected.TestInvalidCarRegistrationTooManyNumbers.executor": "Debug",
     "Python tests.pytest for Functional_Tests.Submit_Valid_Car_Registration.TestValidCarRegistrationSubmission.executor": "Debug",
     "Python tests.pytest for Functional_Tests.Validate_Year_List.TestBrowserFunctionality.executor": "Debug",
+    "Python tests.pytest for Functional_Tests.Validate_Year_List.TestYearDropdownValidation.executor": "Debug",
+    "Python tests.pytest in Submit_Invalid_Car_Registration_Empty.py.executor": "Run",
+    "Python tests.pytest in Submit_Invalid_Car_Registration_Greek_Letters.py.executor": "Run",
+    "Python tests.pytest in Submit_Invalid_Car_Registration_Lowercase_Letters.py.executor": "Run",
+    "Python tests.pytest in Submit_Invalid_Car_Registration_No_Year_Selected.py.executor": "Run",
+    "Python tests.pytest in Submit_Invalid_Car_Registration_Numbers_First.py.executor": "Run",
+    "Python tests.pytest in Submit_Invalid_Car_Registration_Romanian_Pattern.py.executor": "Debug",
+    "Python tests.pytest in Submit_Invalid_Car_Registration_Space_Bar.py.executor": "Run",
+    "Python tests.pytest in Submit_Invalid_Car_Registration_Special_Characters.py.executor": "Run",
+    "Python tests.pytest in Submit_Invalid_Car_Registration_Too_Few_Letters.py.executor": "Run",
+    "Python tests.pytest in Submit_Invalid_Car_Registration_Too_Few_Numbers.py.executor": "Run",
+    "Python tests.pytest in Submit_Invalid_Car_Registration_Too_Many_Letters.py.executor": "Run",
+    "Python tests.pytest in Submit_Invalid_Car_Registration_Too_Many_Numbers.py.executor": "Run",
     "Python tests.pytest in Submit_Valid_Car_Registration.py.executor": "Debug",
     "Python tests.pytest in Validate_Year_List.py.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -75,7 +84,7 @@
       <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for Functional_Tests.Submit_Invalid_Car_Registration_Greek_Letters.TestInvalidCarRegistrationTooManyNumbers">
+  <component name="RunManager" selected="Python tests.pytest for Functional_Tests.Submit_Valid_Car_Registration.TestValidCarRegistrationSubmission">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CarRegisterQA" />
       <option name="ENV_FILES" value="" />
@@ -98,40 +107,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for Functional_Tests.Submit_Invalid_Car_Registration_Greek_Letters.TestInvalidCarRegistrationTooManyNumbers" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="CarRegisterQA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Functional_Tests.Submit_Invalid_Car_Registration_Greek_Letters.TestInvalidCarRegistrationTooManyNumbers&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for Functional_Tests.Submit_Invalid_Car_Registration_No_Year_Selected.TestInvalidCarRegistrationTooManyNumbers" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="CarRegisterQA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Functional_Tests.Submit_Invalid_Car_Registration_No_Year_Selected.TestInvalidCarRegistrationTooManyNumbers&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for Functional_Tests.Submit_Valid_Car_Registration.TestValidCarRegistrationSubmission" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="CarRegisterQA" />
       <option name="ENV_FILES" value="" />
@@ -149,7 +124,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for Functional_Tests.Validate_Year_List.TestBrowserFunctionality" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for Functional_Tests.Validate_Year_List.TestYearDropdownValidation" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="CarRegisterQA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,11 +137,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Functional_Tests.Validate_Year_List.TestBrowserFunctionality&quot;" />
+      <option name="_new_target" value="&quot;Functional_Tests.Validate_Year_List.TestYearDropdownValidation&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in Submit_Valid_Car_Registration.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in Submit_Invalid_Car_Registration_Too_Many_Letters.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="CarRegisterQA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,17 +154,51 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Functional_Tests/Submit_Valid_Car_Registration.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Too_Many_Letters.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in Submit_Invalid_Car_Registration_Too_Many_Numbers.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CarRegisterQA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Too_Many_Numbers.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in Validate_Year_List.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CarRegisterQA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Functional_Tests/Validate_Year_List.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for Functional_Tests.Submit_Invalid_Car_Registration_Greek_Letters.TestInvalidCarRegistrationTooManyNumbers" />
         <item itemvalue="Python tests.pytest for Functional_Tests.Submit_Valid_Car_Registration.TestValidCarRegistrationSubmission" />
-        <item itemvalue="Python tests.pytest for Functional_Tests.Submit_Invalid_Car_Registration_No_Year_Selected.TestInvalidCarRegistrationTooManyNumbers" />
-        <item itemvalue="Python tests.pytest in Submit_Valid_Car_Registration.py" />
-        <item itemvalue="Python tests.pytest for Functional_Tests.Validate_Year_List.TestBrowserFunctionality" />
+        <item itemvalue="Python tests.pytest in Validate_Year_List.py" />
+        <item itemvalue="Python tests.pytest for Functional_Tests.Validate_Year_List.TestYearDropdownValidation" />
+        <item itemvalue="Python tests.pytest in Submit_Invalid_Car_Registration_Too_Many_Numbers.py" />
+        <item itemvalue="Python tests.pytest in Submit_Invalid_Car_Registration_Too_Many_Letters.py" />
       </list>
     </recent_temporary>
   </component>
@@ -288,22 +297,19 @@
       <option name="project" value="LOCAL" />
       <updated>1757497278629</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Renaming Folder for tests">
+      <option name="closed" value="true" />
+      <created>1757502431083</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1757502431083</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Renaming Folder for tests" />
     <option name="LAST_COMMIT_MESSAGE" value="Renaming Folder for tests" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/locators/page_paths/car_registration_application_form.py</url>
-          <line>76</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
