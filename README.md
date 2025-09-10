@@ -1,6 +1,8 @@
 # Car Registration QA - Comprehensive Test Automation Project
 
-This project contains a comprehensive automated test suite using Selenium WebDriver and pytest for testing a car registration web application. The project demonstrates best practices in test automation, including Page Object Model, comprehensive test coverage, and robust error handling.
+This project contains a comprehensive automated test suite using Selenium WebDriver
+and pytest for testing a car registration web application. The project demonstrates best practices in test automation,
+including Page Object Model, comprehensive test coverage, and robust error handling.
 
 ## Project Overview
 
@@ -14,12 +16,16 @@ The application under test is a simple car registration form that validates:
 ```
 CarRegisterQA/
 ├── conftest.py                           # Pytest configuration and browser setup
-├── pytest.ini                           # Pytest settings and markers
+├── pytest.ini                            # Pytest settings and markers
 ├── requirements.txt                      # Python dependencies
 ├── Functional_Tests/                     # Test cases directory
-│   ├── Submit_Valid_Car_Registration.py
-│   ├── Submit_Invalid_Car_Registration_*.py
-│   └── Validate_Year_List.py
+    └── Application_Form/
+        └── Valid_Car_Registrations/
+    │       ├── Submit_Valid_Car_Registration.py
+        └── Invalid_Car_Registrations/
+│           ├── Submit_Invalid_Car_Registration_*.py
+        └── Year_Options/
+            └── Validate_Year_List.py
 ├── functions/                           # Business logic and page objects
 │   ├── car_register_application.py     # Main application logic
 │   └── pages.py                        # Page navigation
@@ -33,7 +39,7 @@ CarRegisterQA/
 │   └── selenium_action_utils.py        # Selenium action wrappers
 └── values_data/                        # Test data management
     ├── car_registration_applications.py # Test data objects
-    └── years.py                        # Year data
+    └── years.py                         # Year data
 ```
 
 ## Setup Instructions
@@ -90,14 +96,13 @@ The comprehensive test suite includes the following test categories:
 |-----------|-------------|------------|
 | `Submit_Valid_Car_Registration.py` | Valid registration scenarios | 3 |
 | `Submit_Invalid_Car_Registration_*.py` | Invalid registration patterns | 14 |
-| `Test_Comprehensive_Validation.py` | Comprehensive validation suite | 4 |
 | `Validate_Year_List.py` | Year dropdown validation | 1 |
 
 ### Test Data Coverage
 - **Valid Patterns**: RTU9999, MNO2945, NIK0000
 - **Invalid Patterns**: Empty, wrong length, case sensitivity, special characters, XSS
 - **Years**: 2015, 2016, 2017, and default selection
-- **Security**: XSS injection, HTML injection, script tags
+- **Security**: script tags
 
 ## Configuration
 
@@ -120,7 +125,7 @@ The comprehensive test suite includes the following test categories:
    - Run tests with appropriate permissions
    - Check file access rights
 
-### Debug Mode
+### Head Mode
 
 To run tests in headless mode (not see the browser):
 1. Edit `conftest.py`
