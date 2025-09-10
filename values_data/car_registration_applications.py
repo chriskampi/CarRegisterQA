@@ -178,3 +178,17 @@ def invalid_car_registration_with_space():
         CarRegistrationApplication: An invalid car registration object for testing
     """
     return CarRegistrationApplication(car_registration="RTU 2945", year=2016)
+
+
+def invalid_car_registration_xss_script_injection():
+    """Return an invalid car registration object for XSS testing with script injection.
+
+    Creates a CarRegistrationApplication instance with:
+    - License plate: "<script>alert('XSS')</script>"
+    - Year: 2016
+
+    Returns:
+        CarRegistrationApplication: An invalid car registration object for XSS testing
+    """
+    return CarRegistrationApplication(car_registration="<script>alert('XSS')</script>", year=2016)
+
