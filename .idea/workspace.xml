@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd621150-052a-4eea-a39d-13d8b50e9083" name="Changes" comment="Renaming Folder for tests">
-      <change afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Valid_Car_Registrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Year_Options/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Empty.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/Submit_Invalid_Car_Registration_Empty.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Greek_Letters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/Submit_Invalid_Car_Registration_Greek_Letters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Lowercase_Letters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/Submit_Invalid_Car_Registration_Lowercase_Letters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Mixed_Case_Letters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/Submit_Invalid_Car_Registration_Mixed_Case_Letters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_No_Year_Selected.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/Submit_Invalid_Car_Registration_No_Year_Selected.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Numbers_First.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/Submit_Invalid_Car_Registration_Numbers_First.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Romanian_Pattern.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/Submit_Invalid_Car_Registration_Romanian_Pattern.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Space_Bar.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/Submit_Invalid_Car_Registration_Space_Bar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Special_Characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/Submit_Invalid_Car_Registration_Special_Characters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Too_Few_Letters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/Submit_Invalid_Car_Registration_Too_Few_Letters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Too_Few_Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/Submit_Invalid_Car_Registration_Too_Few_Numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Too_Many_Letters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/Submit_Invalid_Car_Registration_Too_Many_Letters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_Too_Many_Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/Submit_Invalid_Car_Registration_Too_Many_Numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_XSS_Script_Injection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Application_Form/Invalid_Car_Registrations/Submit_Invalid_Car_Registration_XSS_Script_Injection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="bd621150-052a-4eea-a39d-13d8b50e9083" name="Changes" comment="Renaming Folder for tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,10 +82,11 @@
       <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\Functional_Tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\Functional_Tests\Application_Form\Year_Options" />
+      <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\Functional_Tests\Application_Form\Valid_Car_Registrations" />
       <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\Functional_Tests\Application_Form\Invalid_Car_Registrations" />
       <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA" />
       <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\Functional_Tests" />
-      <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\utils" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest for Functional_Tests.Application_Form.Invalid_Car_Registrations.Submit_Invalid_Car_Registration_Empty.TestInvalidCarRegistrationEmpty.test_submit_invalid_car_registration_empty">
@@ -362,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757507216208</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Renaming Folder for tests">
+      <option name="closed" value="true" />
+      <created>1757507847013</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1757507847013</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
