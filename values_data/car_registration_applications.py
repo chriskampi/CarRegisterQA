@@ -13,7 +13,7 @@ def valid_car_registration_2015():
     
     Creates a CarRegistrationApplication instance with:
     - License plate: "RTU2945"
-    - Year: 2017
+    - Year: 2015
     
     Returns:
         CarRegistrationApplication: A valid car registration object for testing
@@ -25,7 +25,7 @@ def valid_car_registration_2016():
     
     Creates a CarRegistrationApplication instance with:
     - License plate: "MNO2945"
-    - Year: 2017
+    - Year: 2016
     
     Returns:
         CarRegistrationApplication: A valid car registration object for testing
@@ -36,7 +36,7 @@ def valid_car_registration_2017():
     """Return a valid car registration object for testing purposes.
     
     Creates a CarRegistrationApplication instance with:
-    - License plate: "RTU0000"
+    - License plate: "NIK0000"
     - Year: 2017
     
     Returns:
@@ -129,52 +129,52 @@ def invalid_car_registration_numbers_first():
 
 
 def invalid_car_registration_no_year_selected():
-    """Return a invalid car registration object for testing purposes, without year selection.
+    """Return an invalid car registration object for testing purposes, without year selection.
 
     Creates a CarRegistrationApplication instance with:
     - License plate: "RTU2945"
     - Year: Select a year
 
     Returns:
-        CarRegistrationApplication: A valid car registration object for testing
+        CarRegistrationApplication: An invalid car registration object for testing
     """
     return CarRegistrationApplication(car_registration="RTU2945", year="Select a year")
 
 
 def invalid_car_registration_greek_letters():
-    """Return a invalid car registration object for testing purposes with greek letters.
+    """Return an invalid car registration object for testing purposes with greek letters.
 
     Creates a CarRegistrationApplication instance with:
     - License plate: "ΜΝΟ2945"
-    - Year: 2017
+    - Year: 2016
     WARNING: ΜΝΟ is written in greek letters.
 
     Returns:
-        CarRegistrationApplication: A valid car registration object for testing
+        CarRegistrationApplication: An invalid car registration object for testing
     """
     return CarRegistrationApplication(car_registration="ΜΝΟ2945", year=2016)
 
 
 def invalid_car_registration_romanian_pattern():
-    """Return a invalid car registration object for testing purposes with romanian pattern.
+    """Return an invalid car registration object for testing purposes with romanian pattern.
 
     Creates a CarRegistrationApplication instance with:
     - License plate: "BN18CTL"
-    - Year: 2017
+    - Year: 2016
 
     Returns:
-        CarRegistrationApplication: A valid car registration object for testing
+        CarRegistrationApplication: An invalid car registration object for testing
     """
     return CarRegistrationApplication(car_registration="BN18CTL", year=2016)
 
 def invalid_car_registration_with_space():
-    """Return a invalid car registration object for testing purposes with space.
+    """Return an invalid car registration object for testing purposes with space.
 
     Creates a CarRegistrationApplication instance with:
-    - License plate: "BN18CTL"
-    - Year: 2017
+    - License plate: "RTU 2945"
+    - Year: 2016
 
     Returns:
-        CarRegistrationApplication: A valid car registration object for testing
+        CarRegistrationApplication: An invalid car registration object for testing
     """
     return CarRegistrationApplication(car_registration="RTU 2945", year=2016)

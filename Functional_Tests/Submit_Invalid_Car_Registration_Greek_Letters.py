@@ -3,16 +3,16 @@ from functions.car_register_application import CarRegistrationApplication
 from values_data.car_registration_applications import invalid_car_registration_greek_letters
 
 @pytest.mark.browser
-class TestInvalidCarRegistrationTooManyNumbers:
-    """Test class for validating car registration form rejection when license plate has too many numbers"""
+class TestInvalidCarRegistrationGreekLetters:
+    """Test class for validating car registration form rejection when license plate has greek letters"""
     CAR_REGISTRATION = invalid_car_registration_greek_letters()
 
-    def test_submit_invalid_car_registration_too_many_numbers(self, setup_browser_test):
-        """Test rejection of car registration form with too many numbers in license plate.
+    def test_submit_invalid_car_registration_greek_letters(self, setup_browser_test):
+        """Test rejection of car registration form with greek letters in license plate.
         
         This test verifies:
         - The car registration form loads correctly
-        - Invalid car registration data with too many numbers (3 letters + 5+ numbers) is entered
+        - Invalid car registration data with greek letters (ΜΝΟ2945) is entered
         - Year selection from dropdown works
         - Form submission is rejected
         - Error alert is displayed
