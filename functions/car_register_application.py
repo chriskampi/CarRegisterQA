@@ -1,4 +1,5 @@
 from functions.pages import navigate_to_employees_page
+from utils.driver_context import driver_context
 
 
 class CarRegistrationApplication:
@@ -53,17 +54,16 @@ class CarRegistrationApplication:
         """
         self._year = year
 
-    def submit_car_registration_form(self, driver, success=True):
+    def submit_car_registration_form(self, success=True):
         """
-        Submits a car registration for a given driver.
+        Submits a car registration form.
 
-        This method processes the car registration request for the specified driver. It
-        validates the driver information and ensures that all necessary details are in order
+        This method processes the car registration request using the global driver context.
+        It validates the driver information and ensures that all necessary details are in order
         before submitting the request. This method is part of the system for handling
         registration workflows.
 
         Parameters:
-        driver: The driver object containing registration details.
         success: Indicates whether the registration should be successful (default: True).
 
         Returns:
@@ -72,8 +72,10 @@ class CarRegistrationApplication:
         Raises:
         ValueError: If the driver information is incomplete or invalid.
         KeyError: If required details are missing in the driver's data.
+        RuntimeError: If no driver has been set in the global context.
         """
 
+        driver = driver_context.get_driver()
         page = navigate_to_employees_page(driver)
         page.validate_div_alert_message(exists=False)
         page.input_type_car_registration(self._car_registration)
@@ -83,14 +85,17 @@ class CarRegistrationApplication:
         page.validate_div_alert_message(not success)
 
     @staticmethod
-    def validate_year_list(driver, year_list):
+    def validate_year_list(year_list):
         """
         Validate a list of years in the car registration year dropdown.
 
         Args:
-            driver: Selenium WebDriver instance
             year_list: List of years to validate
+            
+        Raises:
+            RuntimeError: If no driver has been set in the global context.
         """
+        driver = driver_context.get_driver()
         page = navigate_to_employees_page(driver)
         page.validate_option_year_list(year_list)
 

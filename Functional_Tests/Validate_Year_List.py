@@ -16,4 +16,4 @@ class TestYearDropdownValidation:
         - The dropdown contains the correct number of options
         - Year options match the predefined test data
         """
-        self.CAR_REGISTRATION.validate_year_list(setup_browser_test, self.YEAR_OPTIONS)
+        self.CAR_REGISTRATION.validate_year_list(self.YEAR_OPTIONS)

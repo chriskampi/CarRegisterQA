@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd621150-052a-4eea-a39d-13d8b50e9083" name="Changes" comment="Renaming Folder for tests">
-      <change afterPath="$PROJECT_DIR$/Functional_Tests/Submit_Valid_Car_Registration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/values_data/car_registration_applications.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/Validate_Year_List.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Validate_Year_List.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functional_Tests/test_browser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/car_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/car_register_application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/page_paths/car_registration_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/page_paths/car_registration_application_form.py" afterDir="false" />
-    </list>
+    <list default="true" id="bd621150-052a-4eea-a39d-13d8b50e9083" name="Changes" comment="Renaming Folder for tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -268,27 +259,19 @@
       <option name="project" value="LOCAL" />
       <updated>1757490089259</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Renaming Folder for tests">
+      <option name="closed" value="true" />
+      <created>1757491554328</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1757491554328</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Renaming Folder for tests" />
     <option name="LAST_COMMIT_MESSAGE" value="Renaming Folder for tests" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/functions/car_register_application.py</url>
-          <line>81</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/locators/page_paths/car_registration_application_form.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

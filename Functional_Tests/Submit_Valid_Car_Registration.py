@@ -20,6 +20,6 @@ class TestValidCarRegistrationSubmission:
         - Success message is displayed with correct details
         - No error alerts are shown
         """
-        self.CAR_REGISTRATION_2015.submit_car_registration_form(setup_browser_test)
-        self.CAR_REGISTRATION_2016.submit_car_registration_form(setup_browser_test)
-        self.CAR_REGISTRATION_2017.submit_car_registration_form(setup_browser_test)
+        self.CAR_REGISTRATION_2015.submit_car_registration_form()
+        self.CAR_REGISTRATION_2016.submit_car_registration_form()
+        self.CAR_REGISTRATION_2017.submit_car_registration_form()

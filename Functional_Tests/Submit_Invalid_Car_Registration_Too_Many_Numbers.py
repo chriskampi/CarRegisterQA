@@ -18,4 +18,4 @@ class TestInvalidCarRegistrationTooManyNumbers:
         - Error alert is displayed
         - Success message is not displayed
         """
-        self.CAR_REGISTRATION.submit_car_registration_form(setup_browser_test, False)
+        self.CAR_REGISTRATION.submit_car_registration_form(False)

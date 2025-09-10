@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import os
 import shutil
+from utils.driver_context import driver_context
 
 
 @pytest.fixture(scope="session")
@@ -65,4 +66,8 @@ def setup_browser_test(browser, html_file_path):
     """Setup browser and navigate to HTML file"""
     browser.get(html_file_path)
     browser.maximize_window()
+    
+    # Set the driver in the global context
+    driver_context.set_driver(browser)
+    
     return browser
