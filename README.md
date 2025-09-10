@@ -16,14 +16,9 @@ CarRegisterQA/
 ├── conftest.py                           # Pytest configuration and browser setup
 ├── pytest.ini                           # Pytest settings and markers
 ├── requirements.txt                      # Python dependencies
-├── run_tests.py                         # Test execution script
-├── TEST_PLAN.md                         # Comprehensive test plan
 ├── Functional_Tests/                     # Test cases directory
 │   ├── Submit_Valid_Car_Registration.py
 │   ├── Submit_Invalid_Car_Registration_*.py
-│   ├── Test_UI_Elements.py              # UI/UX test cases
-│   ├── Test_Edge_Cases.py               # Edge case and boundary testing
-│   ├── Test_Comprehensive_Validation.py # Comprehensive validation tests
 │   └── Validate_Year_List.py
 ├── functions/                           # Business logic and page objects
 │   ├── car_register_application.py     # Main application logic
@@ -75,63 +70,6 @@ CarRegisterQA/
    - Make sure the file `C:/Users/User/Downloads/QA Programming Exercise.html` exists
    - If the path is different, update the `html_file_path` fixture in `conftest.py`
 
-## Running Tests
-
-### Quick Start
-```bash
-# Run all tests
-python run_tests.py
-
-# Run with HTML report
-python run_tests.py --html-report
-
-# Check requirements
-python run_tests.py --check-requirements
-```
-
-### Test Execution Options
-
-#### Using the Test Runner Script
-```bash
-# Run all tests
-python run_tests.py
-
-# Run specific test category
-python run_tests.py --category browser
-python run_tests.py --category smoke
-python run_tests.py --category regression
-
-# Run specific test file
-python run_tests.py --file Functional_Tests/Test_UI_Elements.py
-
-# Generate HTML report
-python run_tests.py --html-report
-
-# Run with coverage report
-python run_tests.py --coverage
-```
-
-#### Using pytest directly
-```bash
-# Run all tests
-pytest
-
-# Run with verbose output
-pytest -v
-
-# Run only browser tests
-pytest -m browser
-
-# Run tests and generate HTML report
-pytest --html=reports/report.html --self-contained-html
-
-# Run specific test file
-pytest Functional_Tests/Test_UI_Elements.py
-
-# Run specific test method
-pytest Functional_Tests/Test_UI_Elements.py::TestUIElements::test_form_elements_visibility
-```
-
 ## Test Coverage
 
 The comprehensive test suite includes the following test categories:
@@ -139,12 +77,10 @@ The comprehensive test suite includes the following test categories:
 ### Functional Testing
 - **Valid Scenarios**: 3 test cases covering valid car registrations with all years
 - **Invalid Scenarios**: 14 test cases covering various invalid input patterns
-- **Edge Cases**: Boundary testing and extreme scenarios
 - **Security Testing**: XSS prevention and input sanitization
 
 ### UI/UX Testing
 - **Form Elements**: Visibility and proper display of all form elements
-- **User Interface**: Bootstrap styling and responsive design
 - **Alert Messages**: Success and error message display
 - **Form Behavior**: Input validation and form reset functionality
 
@@ -154,32 +90,21 @@ The comprehensive test suite includes the following test categories:
 |-----------|-------------|------------|
 | `Submit_Valid_Car_Registration.py` | Valid registration scenarios | 3 |
 | `Submit_Invalid_Car_Registration_*.py` | Invalid registration patterns | 14 |
-| `Test_UI_Elements.py` | UI/UX validation | 5 |
-| `Test_Edge_Cases.py` | Boundary and edge case testing | 9 |
 | `Test_Comprehensive_Validation.py` | Comprehensive validation suite | 4 |
 | `Validate_Year_List.py` | Year dropdown validation | 1 |
 
-**Total Test Cases**: 36+ individual test methods
-
 ### Test Data Coverage
-- **Valid Patterns**: ABC1234, XYZ5678, DEF9012, RTU9999, MNO2945, NIK0000
-- **Invalid Patterns**: Empty, wrong length, case sensitivity, special characters, XSS, unicode
+- **Valid Patterns**: RTU9999, MNO2945, NIK0000
+- **Invalid Patterns**: Empty, wrong length, case sensitivity, special characters, XSS
 - **Years**: 2015, 2016, 2017, and default selection
 - **Security**: XSS injection, HTML injection, script tags
 
 ## Configuration
 
 ### Browser Settings
-- Tests run in headless Chrome by default
+- Tests run in head Chrome by default
 - Window size: 1920x1080
 - Chrome options optimized for testing
-
-### Pytest Configuration
-- Test discovery: `tests/` directory
-- HTML reports: `reports/` directory
-- Markers available: `browser`, `smoke`, `regression`
-
-## Troubleshooting
 
 ### Common Issues
 
@@ -197,15 +122,14 @@ The comprehensive test suite includes the following test categories:
 
 ### Debug Mode
 
-To run tests in non-headless mode (see the browser):
+To run tests in headless mode (not see the browser):
 1. Edit `conftest.py`
-2. Comment out the `--headless` option in `chrome_options`
+2. Comment in the `--headless` option in `chrome_options`
 
 ## Dependencies
 
 - **selenium**: WebDriver automation
 - **pytest**: Testing framework
-- **pytest-html**: HTML report generation
 - **webdriver-manager**: Automatic ChromeDriver management
 
 ## Contributing
