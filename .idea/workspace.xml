@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd621150-052a-4eea-a39d-13d8b50e9083" name="Changes" comment="Renaming Folder for tests" />
+    <list default="true" id="bd621150-052a-4eea-a39d-13d8b50e9083" name="Changes" comment="Renaming Folder for tests">
+      <change afterPath="$PROJECT_DIR$/Functional_Tests/Submit_Valid_Car_Registration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/values_data/car_registration_applications.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional_Tests/Validate_Year_List.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functional_Tests/Validate_Year_List.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional_Tests/test_browser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/car_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/car_register_application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/pages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/page_paths/car_registration_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/page_paths/car_registration_application_form.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,28 +49,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for Functional_Tests.test_browser.TestBrowserFunctionality.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests for tests.test_browser.TestBrowserFunctionality.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.Python tests in test_browser.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for Functional_Tests.Validate_Year_List.TestBrowserFunctionality.executor&quot;: &quot;Debug&quot;,
-    &quot;Python tests.pytest in Validate_Year_List.py.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for Functional_Tests.test_browser.TestBrowserFunctionality.executor": "Debug",
+    "Python tests.Python tests for tests.test_browser.TestBrowserFunctionality.executor": "Debug",
+    "Python tests.Python tests in test_browser.py.executor": "Run",
+    "Python tests.pytest for Functional_Tests.Validate_Year_List.TestBrowserFunctionality.executor": "Debug",
+    "Python tests.pytest in Submit_Valid_Car_Registration.py.executor": "Debug",
+    "Python tests.pytest in Validate_Year_List.py.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Christos/PycharmProjects/CarRegisterQA/Functional_Tests"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\Functional_Tests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA" />
       <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\Functional_Tests" />
       <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for Functional_Tests.Validate_Year_List.TestBrowserFunctionality">
+  <component name="RunManager" selected="Python tests.pytest in Submit_Valid_Car_Registration.py">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CarRegisterQA" />
       <option name="ENV_FILES" value="" />
@@ -99,7 +113,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_browser.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in C:/Users/Christos/PycharmProjects/CarRegisterQA/Functional_Tests/test_browser.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="CarRegisterQA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,6 +145,23 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in Submit_Valid_Car_Registration.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="CarRegisterQA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Functional_Tests/Submit_Valid_Car_Registration.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in Validate_Year_List.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="CarRegisterQA" />
       <option name="ENV_FILES" value="" />
@@ -150,10 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in Submit_Valid_Car_Registration.py" />
         <item itemvalue="Python tests.pytest for Functional_Tests.Validate_Year_List.TestBrowserFunctionality" />
         <item itemvalue="Python tests.pytest in Validate_Year_List.py" />
         <item itemvalue="Python tests.Python tests for Functional_Tests.test_browser.TestBrowserFunctionality" />
-        <item itemvalue="Python tests.Python tests in test_browser.py" />
+        <item itemvalue="Python tests.Python tests in C:/Users/Christos/PycharmProjects/CarRegisterQA/Functional_Tests/test_browser.py" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757458364061</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Renaming Folder for tests">
+      <option name="closed" value="true" />
+      <created>1757490089259</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757490089259</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -239,9 +279,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Functional_Tests/test_browser.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/functions/car_register_application.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/locators/page_paths/car_registration_application_form.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

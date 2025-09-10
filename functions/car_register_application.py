@@ -1,39 +1,39 @@
 from functions.pages import navigate_to_employees_page
 
 
-class CarRegistration:
+class CarRegistrationApplication:
     """
     A class to represent a car registration with license plate and year.
     """
     
-    def __init__(self, license_plate="", year=None):
+    def __init__(self, car_registration="", year=None):
         """
         Initialize a CarRegistration object.
         
         Args:
-            license_plate (str): The license plate number
+            car_registration (str): The license plate number
             year (int): The year of the car
         """
-        self._license_plate = license_plate
+        self._car_registration = car_registration
         self._year = year
     
-    def get_license_plate(self):
+    def get_car_registration(self):
         """
         Get the license plate number.
         
         Returns:
             str: The license plate number
         """
-        return self._license_plate
+        return self._car_registration
     
-    def set_license_plate(self, license_plate):
+    def set_car_registration(self, car_registration):
         """
         Set the license plate number.
         
         Args:
-            license_plate (str): The license plate number to set
+            car_registration (str): The license plate number to set
         """
-        self._license_plate = license_plate
+        self._car_registration = car_registration
     
     def get_year(self):
         """
@@ -53,7 +53,7 @@ class CarRegistration:
         """
         self._year = year
 
-    def submit_car_registration(self, driver, success=True):
+    def submit_car_registration_form(self, driver, success=True):
         """
         Submits a car registration for a given driver.
 
@@ -76,10 +76,10 @@ class CarRegistration:
 
         page = navigate_to_employees_page(driver)
         page.validate_div_alert_message(exists=False)
-        page.input_type_car_registration(self._license_plate)
+        page.input_type_car_registration(self._car_registration)
         page.select_car_registration_year(self._year)
         page.click_submit_button()
-        page.validate_div_success_message(self._license_plate, self._year, success)
+        page.validate_div_success_message(self._car_registration, self._year, success)
         page.validate_div_alert_message(not success)
 
     @staticmethod

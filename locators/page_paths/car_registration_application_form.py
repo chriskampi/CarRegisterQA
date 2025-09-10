@@ -1,6 +1,6 @@
 from locators.base_page import BasePage
 
-class CarRegistrationYearLocators(BasePage):
+class CarRegistrationApplicationForm(BasePage):
     """
     Page Object Model class for car registration year selection functionality.
     
@@ -11,7 +11,7 @@ class CarRegistrationYearLocators(BasePage):
 
     def __init__(self, driver):
         """
-        Initialize the CarRegistrationYearLocators with WebDriver instance.
+        Initialize the CarRegistrationApplicationForm with WebDriver instance.
         
         Args:
             driver: Selenium WebDriver instance for browser automation
@@ -26,7 +26,7 @@ class CarRegistrationYearLocators(BasePage):
         Args:
             car_registration (str): The car registration text to input
         """
-        path = f"{self.elements.input_via_placeholder}"
+        path = f"{self.elements.input_via_placeholder("Car registration")}"
 
         self.actions.find_and_type(path, car_registration)
 
