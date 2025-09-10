@@ -18,7 +18,7 @@ def valid_car_registration_2015():
     Returns:
         CarRegistrationApplication: A valid car registration object for testing
     """
-    return CarRegistrationApplication(car_registration="RTU2945", year=2015)
+    return CarRegistrationApplication(car_registration="RTU9999", year=2015)
 
 def valid_car_registration_2016():
     """Return a valid car registration object for testing purposes.
