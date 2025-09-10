@@ -12,7 +12,7 @@ class CarRegistrationApplication:
         
         Args:
             car_registration (str): The license plate number
-            year (int): The year of the car
+            year (str or int): The year of the car
         """
         self._car_registration = car_registration
         self._year = year
@@ -40,7 +40,7 @@ class CarRegistrationApplication:
         Get the year of the car.
         
         Returns:
-            int: The year of the car
+            str: The year of the car
         """
         return self._year
     
@@ -49,7 +49,7 @@ class CarRegistrationApplication:
         Set the year of the car.
         
         Args:
-            year (int): The year to set
+            year (str): The year to set
         """
         self._year = year
 
@@ -77,9 +77,9 @@ class CarRegistrationApplication:
         page = navigate_to_employees_page()
         page.validate_div_alert_message(exists=False)
         page.input_type_car_registration(self._car_registration)
-        page.select_car_registration_year(str(self._year))
+        page.select_car_registration_year(self._year)
         page.click_submit_button()
-        page.validate_div_success_message(self._car_registration, str(self._year), success)
+        page.validate_div_success_message(self._car_registration, self._year, success)
         page.validate_div_alert_message(not success)
 
     @staticmethod

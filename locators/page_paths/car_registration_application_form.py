@@ -73,7 +73,7 @@ class CarRegistrationApplicationForm(BasePage):
         Returns:
             bool: True if the error message is found (or not found if exists=False), False otherwise
         """
-        path = f"{self.elements.div_alert_success()}[contains(.,'There was an error!')]"
+        path = f"{self.elements.div_alert_danger()}[contains(.,'There was an error!')]"
         return self.actions.find(path, exists)
 
     def validate_option_year_list(self, years):

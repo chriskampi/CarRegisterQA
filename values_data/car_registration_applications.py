@@ -126,3 +126,16 @@ def invalid_car_registration_numbers_first():
         CarRegistrationApplication: An invalid car registration object for testing
     """
     return CarRegistrationApplication(car_registration="3456PQR", year=2017)
+
+
+def invalid_car_registration_no_year_selected():
+    """Return a invalid car registration object for testing purposes, without year selection.
+
+    Creates a CarRegistrationApplication instance with:
+    - License plate: "RTU2945"
+    - Year: Select a year
+
+    Returns:
+        CarRegistrationApplication: A valid car registration object for testing
+    """
+    return CarRegistrationApplication(car_registration="RTU2945", year="Select a year")
