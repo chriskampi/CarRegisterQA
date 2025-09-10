@@ -17,7 +17,6 @@ The car registration form is a simple web application with:
 - **RegEx Pattern**: `^([A-Z]{3})([0-9]{4})$`
 - **Requirements**: Exactly 3 uppercase letters + 4 digits
 - **Year Selection**: Must select a year (not default)
-- **Client-side Validation**: JavaScript with jQuery
 
 ## 2. Test Plan
 
@@ -80,7 +79,6 @@ Functional_Tests/
 The application under test is a simple car registration form that validates:
 - **Car Registration Format**: Must match `^([A-Z]{3})([0-9]{4})$` (3 uppercase letters + 4 digits)
 - **Year Selection**: Must select a year from dropdown (2015, 2016, 2017)
-- **Form Validation**: Client-side JavaScript validation with success/error messaging
 
 ## Project Structure
 
