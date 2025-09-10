@@ -21,7 +21,6 @@ The car registration form is a simple web application with:
 ## 2. Test Plan
 
 ### 2.1 Testing Strategy
-- **Black Box Testing**: Testing without internal code knowledge
 - **Equivalence Partitioning**: Grouping test cases by validity
 - **Boundary Value Analysis**: Testing edge cases and limits
 - **Error Guessing**: Testing common error scenarios

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bd621150-052a-4eea-a39d-13d8b50e9083" name="Changes" comment="Renaming Folder for tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Plan.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,43 +43,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for Functional_Tests.test_browser.TestBrowserFunctionality.executor": "Debug",
-    "Python tests.Python tests for tests.test_browser.TestBrowserFunctionality.executor": "Debug",
-    "Python tests.Python tests in test_browser.py.executor": "Run",
-    "Python tests.pytest for Functional_Tests.Application_Form.Invalid_Car_Registrations.Submit_Invalid_Car_Registration_Empty.TestInvalidCarRegistrationEmpty.test_submit_invalid_car_registration_empty.executor": "Run",
-    "Python tests.pytest for Functional_Tests.Submit_Invalid_Car_Registration_Greek_Letters.TestInvalidCarRegistrationTooManyNumbers.executor": "Debug",
-    "Python tests.pytest for Functional_Tests.Submit_Invalid_Car_Registration_No_Year_Selected.TestInvalidCarRegistrationTooManyNumbers.executor": "Debug",
-    "Python tests.pytest for Functional_Tests.Submit_Invalid_Car_Registration_XSS_Script_Injection.TestInvalidCarRegistrationXSSScriptInjection.executor": "Run",
-    "Python tests.pytest for Functional_Tests.Submit_Valid_Car_Registration.TestValidCarRegistrationSubmission.executor": "Debug",
-    "Python tests.pytest for Functional_Tests.Validate_Year_List.TestBrowserFunctionality.executor": "Debug",
-    "Python tests.pytest for Functional_Tests.Validate_Year_List.TestYearDropdownValidation.executor": "Debug",
-    "Python tests.pytest in Submit_Invalid_Car_Registration_Empty.py.executor": "Run",
-    "Python tests.pytest in Submit_Invalid_Car_Registration_Greek_Letters.py.executor": "Run",
-    "Python tests.pytest in Submit_Invalid_Car_Registration_Lowercase_Letters.py.executor": "Run",
-    "Python tests.pytest in Submit_Invalid_Car_Registration_Mixed_Case_Letters.py.executor": "Run",
-    "Python tests.pytest in Submit_Invalid_Car_Registration_No_Year_Selected.py.executor": "Run",
-    "Python tests.pytest in Submit_Invalid_Car_Registration_Numbers_First.py.executor": "Run",
-    "Python tests.pytest in Submit_Invalid_Car_Registration_Romanian_Pattern.py.executor": "Run",
-    "Python tests.pytest in Submit_Invalid_Car_Registration_Space_Bar.py.executor": "Run",
-    "Python tests.pytest in Submit_Invalid_Car_Registration_Special_Characters.py.executor": "Run",
-    "Python tests.pytest in Submit_Invalid_Car_Registration_Too_Few_Letters.py.executor": "Run",
-    "Python tests.pytest in Submit_Invalid_Car_Registration_Too_Few_Numbers.py.executor": "Run",
-    "Python tests.pytest in Submit_Invalid_Car_Registration_Too_Many_Letters.py.executor": "Run",
-    "Python tests.pytest in Submit_Invalid_Car_Registration_Too_Many_Numbers.py.executor": "Run",
-    "Python tests.pytest in Submit_Invalid_Car_Registration_XSS_Script_Injection.py.executor": "Run",
-    "Python tests.pytest in Submit_Valid_Car_Registration.py.executor": "Run",
-    "Python tests.pytest in Validate_Year_List.py.executor": "Run",
-    "Python.run_all_tests.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Christos/PycharmProjects/CarRegisterQA/Functional_Tests"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for Functional_Tests.test_browser.TestBrowserFunctionality.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for tests.test_browser.TestBrowserFunctionality.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests in test_browser.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for Functional_Tests.Application_Form.Invalid_Car_Registrations.Submit_Invalid_Car_Registration_Empty.TestInvalidCarRegistrationEmpty.test_submit_invalid_car_registration_empty.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for Functional_Tests.Submit_Invalid_Car_Registration_Greek_Letters.TestInvalidCarRegistrationTooManyNumbers.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for Functional_Tests.Submit_Invalid_Car_Registration_No_Year_Selected.TestInvalidCarRegistrationTooManyNumbers.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for Functional_Tests.Submit_Invalid_Car_Registration_XSS_Script_Injection.TestInvalidCarRegistrationXSSScriptInjection.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for Functional_Tests.Submit_Valid_Car_Registration.TestValidCarRegistrationSubmission.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for Functional_Tests.Validate_Year_List.TestBrowserFunctionality.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest for Functional_Tests.Validate_Year_List.TestYearDropdownValidation.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.pytest in Submit_Invalid_Car_Registration_Empty.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Submit_Invalid_Car_Registration_Greek_Letters.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Submit_Invalid_Car_Registration_Lowercase_Letters.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Submit_Invalid_Car_Registration_Mixed_Case_Letters.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Submit_Invalid_Car_Registration_No_Year_Selected.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Submit_Invalid_Car_Registration_Numbers_First.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Submit_Invalid_Car_Registration_Romanian_Pattern.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Submit_Invalid_Car_Registration_Space_Bar.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Submit_Invalid_Car_Registration_Special_Characters.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Submit_Invalid_Car_Registration_Too_Few_Letters.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Submit_Invalid_Car_Registration_Too_Few_Numbers.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Submit_Invalid_Car_Registration_Too_Many_Letters.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Submit_Invalid_Car_Registration_Too_Many_Numbers.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Submit_Invalid_Car_Registration_XSS_Script_Injection.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Submit_Valid_Car_Registration.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Validate_Year_List.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_all_tests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Christos/PycharmProjects/CarRegisterQA/Functional_Tests&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Christos\PycharmProjects\CarRegisterQA\Functional_Tests" />
@@ -384,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757508412190</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Renaming Folder for tests">
+      <option name="closed" value="true" />
+      <created>1757509414265</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1757509414265</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
