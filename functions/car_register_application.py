@@ -1,5 +1,4 @@
 from functions.pages import navigate_to_employees_page
-from utils.driver_context import driver_context
 
 
 class CarRegistrationApplication:
@@ -75,13 +74,12 @@ class CarRegistrationApplication:
         RuntimeError: If no driver has been set in the global context.
         """
 
-        driver = driver_context.get_driver()
-        page = navigate_to_employees_page(driver)
+        page = navigate_to_employees_page()
         page.validate_div_alert_message(exists=False)
         page.input_type_car_registration(self._car_registration)
-        page.select_car_registration_year(self._year)
+        page.select_car_registration_year(str(self._year))
         page.click_submit_button()
-        page.validate_div_success_message(self._car_registration, self._year, success)
+        page.validate_div_success_message(self._car_registration, str(self._year), success)
         page.validate_div_alert_message(not success)
 
     @staticmethod
@@ -95,8 +93,7 @@ class CarRegistrationApplication:
         Raises:
             RuntimeError: If no driver has been set in the global context.
         """
-        driver = driver_context.get_driver()
-        page = navigate_to_employees_page(driver)
+        page = navigate_to_employees_page()
         page.validate_option_year_list(year_list)
 
 
