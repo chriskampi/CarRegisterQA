@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd621150-052a-4eea-a39d-13d8b50e9083" name="Changes" comment="Renaming Folder for tests">
-      <change afterPath="$PROJECT_DIR$/Functional_Tests/Submit_Invalid_Car_Registration_XSS_Script_Injection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/values_data/car_registration_applications.py" beforeDir="false" afterPath="$PROJECT_DIR$/values_data/car_registration_applications.py" afterDir="false" />
-    </list>
+    <list default="true" id="bd621150-052a-4eea-a39d-13d8b50e9083" name="Changes" comment="Renaming Folder for tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +48,7 @@
     "Python tests.Python tests in test_browser.py.executor": "Run",
     "Python tests.pytest for Functional_Tests.Submit_Invalid_Car_Registration_Greek_Letters.TestInvalidCarRegistrationTooManyNumbers.executor": "Debug",
     "Python tests.pytest for Functional_Tests.Submit_Invalid_Car_Registration_No_Year_Selected.TestInvalidCarRegistrationTooManyNumbers.executor": "Debug",
-    "Python tests.pytest for Functional_Tests.Submit_Invalid_Car_Registration_XSS_Script_Injection.TestInvalidCarRegistrationXSSScriptInjection.executor": "Debug",
+    "Python tests.pytest for Functional_Tests.Submit_Invalid_Car_Registration_XSS_Script_Injection.TestInvalidCarRegistrationXSSScriptInjection.executor": "Run",
     "Python tests.pytest for Functional_Tests.Submit_Valid_Car_Registration.TestValidCarRegistrationSubmission.executor": "Debug",
     "Python tests.pytest for Functional_Tests.Validate_Year_List.TestBrowserFunctionality.executor": "Debug",
     "Python tests.pytest for Functional_Tests.Validate_Year_List.TestYearDropdownValidation.executor": "Debug",
@@ -315,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757504504381</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Renaming Folder for tests">
+      <option name="closed" value="true" />
+      <created>1757505005883</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1757505005883</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
